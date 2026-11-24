@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# tbr — Linux text browser (launcher)
+# Usage: ./tbr <url> [options]   (see ./tbr.py --help)
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$DIR/venv/bin/python" "$DIR/tbr.py" "$@"

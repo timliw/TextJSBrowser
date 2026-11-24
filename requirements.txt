@@ -1,0 +1,8 @@
+# Core scraping / parsing
+requests
+beautifulsoup4
+lxml
+
+# Stealth headless browser used by the "js" engine. After installing,
+# also download the browser itself:  python -m camoufox fetch
+camoufox[geoip]

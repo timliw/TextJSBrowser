@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# tbrowse — interactive text browser TUI (browse.py)
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$DIR/venv/bin/python" "$DIR/browse.py" "$@"
